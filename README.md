@@ -3,7 +3,8 @@
 
 以下のURLにアクセスするとWebXRを体験できます．<br>
 HoloLens2，Quest2のWebXRに対応しています．<br>
-https://tom4c3.github.io/HatsuneMiku16thWebXR/<br>
+https://tom4c3.github.io/HatsuneMiku16thWebXR/<br><br>
+PC，スマホなどでもモデルの表示は可能です．<br>
 
 HoloLens2の場合は以下のQRコードからもアクセスできます．<br/>
 [![webXRGithub](
