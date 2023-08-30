@@ -1,5 +1,5 @@
 # HatsuneMiku16thWebXR
-初音ミク16周年のWebXRコンテンツのページです．
+初音ミク16周年のWebXRコンテンツのページです．はちゅねミクの3Dモデルを見ることができます．
 
 以下のURLにアクセスするとWebXRを体験できます．<br>
 HoloLens2，Quest2のWebXRに対応しています．<br>
