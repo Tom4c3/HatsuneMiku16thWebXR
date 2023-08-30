@@ -30,7 +30,7 @@
             let camera = new BABYLON.ArcRotateCamera("camera", -Math.PI / 2, Math.PI / 2, 3, new BABYLON.Vector3(0, 0, 0));
             camera.attachControl(canvas, true);
         }
-
+        /*
         async function initializeXR() {
             let xr = await scene.createDefaultXRExperienceAsync(
                 {
@@ -48,6 +48,18 @@
                 });
             }
         }
+        */
+        async function initializeXR() {
+            let xr = await scene.createDefaultXRExperienceAsync({});
+            if (!xr.baseExperience) { }
+            else {
+                xr.baseExperience.featuresManager.enableFeature(BABYLON.WebXRFeatureName.HAND_TRACKING, "latest", {
+                    xrInput: xr.input
+                });
+            }
+        }
+
+
 
         function createSparklingParticles(mesh) {
             let particleSystem = new BABYLON.ParticleSystem("particles", 2000, scene);
